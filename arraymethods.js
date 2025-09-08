@@ -64,6 +64,7 @@ dynamically.
 
 //let newDrink = input.question("Enter a new drink of your choice :'flat white' available ");
 //let newOrder = orders[0].push(newDrink);
+//console.log("Updated drinks: " + newOrder + "\t Number of drinks : " + newOrder.length);
 let newDrink = orders[0].concat(input.question("Enter a new drink of your choice :'flat white' available "));
 console.log("Updated drinks: " + newDrink + "\t Number of drinks : " + newDrink.length);
 
