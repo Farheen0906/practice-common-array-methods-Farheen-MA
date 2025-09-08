@@ -62,9 +62,10 @@ Declare two variables and use them with bracket notation to log the selected ord
 dynamically.
 */
 
-let newDrink = input.question("Enter a new drink of your choice :'flat white' available ");
-let newOrder = orders[0].push(newDrink);
-console.log("Updated number of drinks: " + newOrder);
+//let newDrink = input.question("Enter a new drink of your choice :'flat white' available ");
+//let newOrder = orders[0].push(newDrink);
+let newDrink = orders[0].concat(input.question("Enter a new drink of your choice :'flat white' available "));
+console.log("Updated number of drinks: " + newDrink);
 
 let catSelected = input.question("Enter the category 0->'Drinks' & 1->'Pastries': ");
 let itemSelected = input.question("select the item : ");
